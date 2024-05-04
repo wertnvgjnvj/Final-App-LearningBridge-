@@ -28,6 +28,7 @@ class PostViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //setNavigationBarHidden(false, animated: false)
         table.dataSource = self
         table.delegate = self
         // Do any additional setup after loading the view.

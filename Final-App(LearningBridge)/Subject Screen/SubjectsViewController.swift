@@ -7,12 +7,13 @@ class SubjectsViewController: UIViewController, UICollectionViewDataSource, UICo
     @IBOutlet weak var searchBar: UISearchBar!
     
     var selectedClass: String?
-    var subjects = ["Math", "Science", "History", "English", "Art", "Music","Geography", "Economics", "Physics", "Chemistry"]
+    var subjects = ["English", "Science", "History", "Mathwmatics", "Art", "Music","Geography", "Economics", "Physics", "Chemistry"]
     var filteredSubjects: [String] = [] // Filtered subjects based on search
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationItem.hidesBackButton = true
         // Configure collection view
         collectionView.dataSource = self
         collectionView.delegate = self

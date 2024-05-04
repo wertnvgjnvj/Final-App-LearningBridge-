@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C14975782BE4E24400A69BC0 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14975772BE4E24400A69BC0 /* Date+Extension.swift */; };
+		C149757A2BE4E24D00A69BC0 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14975792BE4E24D00A69BC0 /* Note.swift */; };
+		C149757C2BE4E25500A69BC0 /* ListNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C149757B2BE4E25500A69BC0 /* ListNotesViewController.swift */; };
+		C149757E2BE4E25B00A69BC0 /* ListNoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C149757D2BE4E25B00A69BC0 /* ListNoteTableViewCell.swift */; };
+		C14975802BE4E26100A69BC0 /* EditNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C149757F2BE4E26100A69BC0 /* EditNoteViewController.swift */; };
+		C14975862BE4F36E00A69BC0 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14975852BE4F36E00A69BC0 /* TabBarController.swift */; };
 		C149D93A2BE38AF4007158E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C149D9392BE38AF4007158E9 /* AppDelegate.swift */; };
 		C149D93C2BE38AF4007158E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C149D93B2BE38AF4007158E9 /* SceneDelegate.swift */; };
 		C149D9412BE38AF4007158E9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C149D9402BE38AF4007158E9 /* Base */; };
@@ -18,9 +24,19 @@
 		C149D9552BE395A0007158E9 /* SubjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C149D9542BE395A0007158E9 /* SubjectCell.swift */; };
 		C149D95F2BE39D85007158E9 /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C149D95E2BE39D85007158E9 /* SessionViewController.swift */; };
 		C149D9612BE39D89007158E9 /* SessionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C149D9602BE39D89007158E9 /* SessionTableViewCell.swift */; };
+		C18B32882BE5364E001C8D94 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18B32862BE53603001C8D94 /* PostViewController.swift */; };
+		C18B32892BE53650001C8D94 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18B32872BE53609001C8D94 /* PostTableViewCell.swift */; };
+		C18B328B2BE5379A001C8D94 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18B328A2BE5379A001C8D94 /* VideoViewController.swift */; };
+		C18B328D2BE538F4001C8D94 /* Tenses.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C18B328C2BE538F4001C8D94 /* Tenses.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C14975772BE4E24400A69BC0 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Date+Extension.swift"; path = "../../../Downloads/ios-tutorials-my-notes-starter-3/MyNotes/Extensions/Date+Extension.swift"; sourceTree = "<group>"; };
+		C14975792BE4E24D00A69BC0 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Note.swift; path = "../../../Downloads/ios-tutorials-my-notes-starter-3/MyNotes/Models/Note.swift"; sourceTree = "<group>"; };
+		C149757B2BE4E25500A69BC0 /* ListNotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListNotesViewController.swift; path = "../../../Downloads/ios-tutorials-my-notes-starter-3/MyNotes/Views/ListNotes/ListNotesViewController.swift"; sourceTree = "<group>"; };
+		C149757D2BE4E25B00A69BC0 /* ListNoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListNoteTableViewCell.swift; path = "../../../Downloads/ios-tutorials-my-notes-starter-3/MyNotes/Views/ListNotes/ListNoteTableViewCell.swift"; sourceTree = "<group>"; };
+		C149757F2BE4E26100A69BC0 /* EditNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditNoteViewController.swift; path = "../../../Downloads/ios-tutorials-my-notes-starter-3/MyNotes/Views/EditNote/EditNoteViewController.swift"; sourceTree = "<group>"; };
+		C14975852BE4F36E00A69BC0 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		C149D9362BE38AF4007158E9 /* Final-App(LearningBridge).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final-App(LearningBridge).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C149D9392BE38AF4007158E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C149D93B2BE38AF4007158E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,10 +48,12 @@
 		C149D94F2BE39470007158E9 /* ClassCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassCell.swift; sourceTree = "<group>"; };
 		C149D9522BE39598007158E9 /* SubjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
 		C149D9542BE395A0007158E9 /* SubjectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectCell.swift; sourceTree = "<group>"; };
-		C149D95C2BE39B54007158E9 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
-		C149D95D2BE39B5A007158E9 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		C149D95E2BE39D85007158E9 /* SessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionViewController.swift; sourceTree = "<group>"; };
 		C149D9602BE39D89007158E9 /* SessionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionTableViewCell.swift; sourceTree = "<group>"; };
+		C18B32862BE53603001C8D94 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		C18B32872BE53609001C8D94 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		C18B328A2BE5379A001C8D94 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoViewController.swift; path = ../../VideoPlayer/VideoPlayer/VideoViewController.swift; sourceTree = "<group>"; };
+		C18B328C2BE538F4001C8D94 /* Tenses.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Tenses.mp4; path = ../../Tenses.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,16 +86,26 @@
 		C149D9382BE38AF4007158E9 /* Final-App(LearningBridge) */ = {
 			isa = PBXGroup;
 			children = (
+				C18B32852BE535F7001C8D94 /* post Screen */,
 				C149D9392BE38AF4007158E9 /* AppDelegate.swift */,
 				C149D93B2BE38AF4007158E9 /* SceneDelegate.swift */,
 				C149D9622BE39D95007158E9 /* Session Screen */,
 				C149D9562BE3964C007158E9 /* Subject Screen */,
-				C149D95B2BE39B33007158E9 /* Post Screen(English) */,
 				C149D9512BE3951F007158E9 /* Class Screen */,
 				C149D93F2BE38AF4007158E9 /* Main.storyboard */,
+				C18B328C2BE538F4001C8D94 /* Tenses.mp4 */,
+				C14975772BE4E24400A69BC0 /* Date+Extension.swift */,
+				C14975792BE4E24D00A69BC0 /* Note.swift */,
+				C149757B2BE4E25500A69BC0 /* ListNotesViewController.swift */,
+				C149757D2BE4E25B00A69BC0 /* ListNoteTableViewCell.swift */,
+				C149757F2BE4E26100A69BC0 /* EditNoteViewController.swift */,
+				C18B32862BE53603001C8D94 /* PostViewController.swift */,
+				C18B32872BE53609001C8D94 /* PostTableViewCell.swift */,
+				C18B328A2BE5379A001C8D94 /* VideoViewController.swift */,
 				C149D9422BE38AF5007158E9 /* Assets.xcassets */,
 				C149D9442BE38AF5007158E9 /* LaunchScreen.storyboard */,
 				C149D9472BE38AF5007158E9 /* Info.plist */,
+				C14975852BE4F36E00A69BC0 /* TabBarController.swift */,
 			);
 			path = "Final-App(LearningBridge)";
 			sourceTree = "<group>";
@@ -100,15 +128,6 @@
 			path = "Subject Screen";
 			sourceTree = "<group>";
 		};
-		C149D95B2BE39B33007158E9 /* Post Screen(English) */ = {
-			isa = PBXGroup;
-			children = (
-				C149D95D2BE39B5A007158E9 /* PostViewController.swift */,
-				C149D95C2BE39B54007158E9 /* PostTableViewCell.swift */,
-			);
-			path = "Post Screen(English)";
-			sourceTree = "<group>";
-		};
 		C149D9622BE39D95007158E9 /* Session Screen */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +135,13 @@
 				C149D9602BE39D89007158E9 /* SessionTableViewCell.swift */,
 			);
 			path = "Session Screen";
+			sourceTree = "<group>";
+		};
+		C18B32852BE535F7001C8D94 /* post Screen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "post Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +205,7 @@
 				C149D9432BE38AF5007158E9 /* Assets.xcassets in Resources */,
 				C149D9462BE38AF5007158E9 /* Base in Resources */,
 				C149D9412BE38AF4007158E9 /* Base in Resources */,
+				C18B328D2BE538F4001C8D94 /* Tenses.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +216,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14975802BE4E26100A69BC0 /* EditNoteViewController.swift in Sources */,
+				C14975862BE4F36E00A69BC0 /* TabBarController.swift in Sources */,
 				C149D9552BE395A0007158E9 /* SubjectCell.swift in Sources */,
 				C149D9502BE39470007158E9 /* ClassCell.swift in Sources */,
 				C149D9532BE39598007158E9 /* SubjectsViewController.swift in Sources */,
 				C149D93A2BE38AF4007158E9 /* AppDelegate.swift in Sources */,
 				C149D9612BE39D89007158E9 /* SessionTableViewCell.swift in Sources */,
+				C149757A2BE4E24D00A69BC0 /* Note.swift in Sources */,
+				C18B328B2BE5379A001C8D94 /* VideoViewController.swift in Sources */,
 				C149D94E2BE39467007158E9 /* ChooseCollectionViewController.swift in Sources */,
+				C18B32882BE5364E001C8D94 /* PostViewController.swift in Sources */,
 				C149D95F2BE39D85007158E9 /* SessionViewController.swift in Sources */,
+				C18B32892BE53650001C8D94 /* PostTableViewCell.swift in Sources */,
+				C149757C2BE4E25500A69BC0 /* ListNotesViewController.swift in Sources */,
 				C149D93C2BE38AF4007158E9 /* SceneDelegate.swift in Sources */,
+				C14975782BE4E24400A69BC0 /* Date+Extension.swift in Sources */,
+				C149757E2BE4E25B00A69BC0 /* ListNoteTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -30,7 +30,7 @@ class SubjectCell: UICollectionViewCell {
         
         // Set gradient colors based on subject
         switch subject {
-        case "Math":
+        case "English":
             gradientLayer.colors = [
                 UIColor(hex: "#00a6fb").cgColor,
                 UIColor(hex: "#003554").cgColor
@@ -45,7 +45,7 @@ class SubjectCell: UICollectionViewCell {
                 UIColor(hex: "#941b0c").cgColor,
                 UIColor(hex: "#ff4800").cgColor
             ]
-        case "English":
+        case "Mathematics":
             gradientLayer.colors = [
                 UIColor(hex: "#ffb600").cgColor,
                 UIColor(hex: "#042a2b").cgColor

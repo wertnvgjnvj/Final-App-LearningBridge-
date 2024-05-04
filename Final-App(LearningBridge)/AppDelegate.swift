@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  Final-App(LearningBridge)
-//
-//  Created by Sahil Aggarwal on 02/05/24.
-//
 
 import UIKit
 
