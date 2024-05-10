@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1394C012BEB579E00A6FB5F /* MentorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1394C002BEB579E00A6FB5F /* MentorDetailViewController.swift */; };
+		C1394C072BEB57BC00A6FB5F /* MentorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1394C062BEB57BC00A6FB5F /* MentorViewController.swift */; };
 		C14975782BE4E24400A69BC0 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14975772BE4E24400A69BC0 /* Date+Extension.swift */; };
 		C149757A2BE4E24D00A69BC0 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14975792BE4E24D00A69BC0 /* Note.swift */; };
 		C149757C2BE4E25500A69BC0 /* ListNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C149757B2BE4E25500A69BC0 /* ListNotesViewController.swift */; };
@@ -24,13 +26,32 @@
 		C149D9552BE395A0007158E9 /* SubjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C149D9542BE395A0007158E9 /* SubjectCell.swift */; };
 		C149D95F2BE39D85007158E9 /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C149D95E2BE39D85007158E9 /* SessionViewController.swift */; };
 		C149D9612BE39D89007158E9 /* SessionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C149D9602BE39D89007158E9 /* SessionTableViewCell.swift */; };
+		C15F42B62BE897CE006883CC /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F42B52BE897CE006883CC /* ProfileTableViewController.swift */; };
 		C18B32882BE5364E001C8D94 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18B32862BE53603001C8D94 /* PostViewController.swift */; };
 		C18B32892BE53650001C8D94 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18B32872BE53609001C8D94 /* PostTableViewCell.swift */; };
 		C18B328B2BE5379A001C8D94 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18B328A2BE5379A001C8D94 /* VideoViewController.swift */; };
 		C18B328D2BE538F4001C8D94 /* Tenses.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C18B328C2BE538F4001C8D94 /* Tenses.mp4 */; };
+		C1AB55312BECE85300D1C56C /* MentorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AB55302BECE85300D1C56C /* MentorTableViewController.swift */; };
+		C1AB55332BECE85B00D1C56C /* MentorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AB55322BECE85B00D1C56C /* MentorCell.swift */; };
+		C1AB55352BECE86100D1C56C /* MentorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AB55342BECE86100D1C56C /* MentorTableViewCell.swift */; };
+		C1AB55372BECF5A700D1C56C /* SpeechRecogniserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AB55362BECF5A700D1C56C /* SpeechRecogniserViewController.swift */; };
+		C1AB55392BECF69400D1C56C /* ExtractedTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AB55382BECF69400D1C56C /* ExtractedTextViewController.swift */; };
+		C1AB553B2BECF6A000D1C56C /* EvaluationResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AB553A2BECF6A000D1C56C /* EvaluationResultsViewController.swift */; };
+		C1AB553D2BECF6B400D1C56C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AB553C2BECF6B400D1C56C /* CameraViewController.swift */; };
+		C1AB553F2BECF6BC00D1C56C /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AB553E2BECF6BC00D1C56C /* ItemTableViewCell.swift */; };
+		C1AB554B2BECFC5700D1C56C /* StreamVideo in Frameworks */ = {isa = PBXBuildFile; productRef = C1AB554A2BECFC5700D1C56C /* StreamVideo */; };
+		C1AB554D2BECFC5700D1C56C /* StreamVideoSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C1AB554C2BECFC5700D1C56C /* StreamVideoSwiftUI */; };
+		C1AB554F2BECFC5700D1C56C /* StreamVideoUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = C1AB554E2BECFC5700D1C56C /* StreamVideoUIKit */; };
+		C1AB55512BECFC8900D1C56C /* VideoCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AB55502BECFC8900D1C56C /* VideoCallViewController.swift */; };
+		C1AB55552BECFD2000D1C56C /* ParticipantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AB55522BECFD1F00D1C56C /* ParticipantsView.swift */; };
+		C1AB55562BECFD2000D1C56C /* VideoCallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AB55532BECFD2000D1C56C /* VideoCallApp.swift */; };
+		C1AB55572BECFD2000D1C56C /* FloatingParticipantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AB55542BECFD2000D1C56C /* FloatingParticipantView.swift */; };
+		C1F118402BEDDD60001CD5D0 /* Screenshot 2024-05-09 at 1.26.12 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F1183F2BEDDD60001CD5D0 /* Screenshot 2024-05-09 at 1.26.12 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C1394C002BEB579E00A6FB5F /* MentorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MentorDetailViewController.swift; path = ../../../.Trash/MentorDetailViewController.swift; sourceTree = "<group>"; };
+		C1394C062BEB57BC00A6FB5F /* MentorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MentorViewController.swift; path = ../../../.Trash/MentorViewController.swift; sourceTree = "<group>"; };
 		C14975772BE4E24400A69BC0 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Date+Extension.swift"; path = "../../../Downloads/ios-tutorials-my-notes-starter-3/MyNotes/Extensions/Date+Extension.swift"; sourceTree = "<group>"; };
 		C14975792BE4E24D00A69BC0 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Note.swift; path = "../../../Downloads/ios-tutorials-my-notes-starter-3/MyNotes/Models/Note.swift"; sourceTree = "<group>"; };
 		C149757B2BE4E25500A69BC0 /* ListNotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListNotesViewController.swift; path = "../../../Downloads/ios-tutorials-my-notes-starter-3/MyNotes/Views/ListNotes/ListNotesViewController.swift"; sourceTree = "<group>"; };
@@ -50,10 +71,24 @@
 		C149D9542BE395A0007158E9 /* SubjectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectCell.swift; sourceTree = "<group>"; };
 		C149D95E2BE39D85007158E9 /* SessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionViewController.swift; sourceTree = "<group>"; };
 		C149D9602BE39D89007158E9 /* SessionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionTableViewCell.swift; sourceTree = "<group>"; };
+		C15F42B52BE897CE006883CC /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileTableViewController.swift; path = "../../../Downloads/4 Rndr/Dr RndR/ProfileTableViewController.swift"; sourceTree = "<group>"; };
 		C18B32862BE53603001C8D94 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		C18B32872BE53609001C8D94 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		C18B328A2BE5379A001C8D94 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoViewController.swift; path = ../../VideoPlayer/VideoPlayer/VideoViewController.swift; sourceTree = "<group>"; };
 		C18B328C2BE538F4001C8D94 /* Tenses.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Tenses.mp4; path = ../../Tenses.mp4; sourceTree = "<group>"; };
+		C1AB55302BECE85300D1C56C /* MentorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MentorTableViewController.swift; path = ../../../Downloads/mentorScreen/mentorScreen/MentorTableViewController.swift; sourceTree = "<group>"; };
+		C1AB55322BECE85B00D1C56C /* MentorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MentorCell.swift; path = ../../../Downloads/MentorCell.swift; sourceTree = "<group>"; };
+		C1AB55342BECE86100D1C56C /* MentorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MentorTableViewCell.swift; path = ../../../Downloads/mentorScreen/mentorScreen/MentorTableViewCell.swift; sourceTree = "<group>"; };
+		C1AB55362BECF5A700D1C56C /* SpeechRecogniserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecogniserViewController.swift; sourceTree = "<group>"; };
+		C1AB55382BECF69400D1C56C /* ExtractedTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtractedTextViewController.swift; sourceTree = "<group>"; };
+		C1AB553A2BECF6A000D1C56C /* EvaluationResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvaluationResultsViewController.swift; sourceTree = "<group>"; };
+		C1AB553C2BECF6B400D1C56C /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		C1AB553E2BECF6BC00D1C56C /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		C1AB55502BECFC8900D1C56C /* VideoCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallViewController.swift; sourceTree = "<group>"; };
+		C1AB55522BECFD1F00D1C56C /* ParticipantsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticipantsView.swift; sourceTree = "<group>"; };
+		C1AB55532BECFD2000D1C56C /* VideoCallApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCallApp.swift; sourceTree = "<group>"; };
+		C1AB55542BECFD2000D1C56C /* FloatingParticipantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingParticipantView.swift; sourceTree = "<group>"; };
+		C1F1183F2BEDDD60001CD5D0 /* Screenshot 2024-05-09 at 1.26.12 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-05-09 at 1.26.12 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +96,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1AB554D2BECFC5700D1C56C /* StreamVideoSwiftUI in Frameworks */,
+				C1AB554F2BECFC5700D1C56C /* StreamVideoUIKit in Frameworks */,
+				C1AB554B2BECFC5700D1C56C /* StreamVideo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +108,7 @@
 		C149D92D2BE38AF4007158E9 = {
 			isa = PBXGroup;
 			children = (
+				C1AB55502BECFC8900D1C56C /* VideoCallViewController.swift */,
 				C149D9382BE38AF4007158E9 /* Final-App(LearningBridge) */,
 				C149D9372BE38AF4007158E9 /* Products */,
 			);
@@ -86,26 +125,41 @@
 		C149D9382BE38AF4007158E9 /* Final-App(LearningBridge) */ = {
 			isa = PBXGroup;
 			children = (
-				C18B32852BE535F7001C8D94 /* post Screen */,
 				C149D9392BE38AF4007158E9 /* AppDelegate.swift */,
+				C18B32852BE535F7001C8D94 /* post Screen */,
 				C149D93B2BE38AF4007158E9 /* SceneDelegate.swift */,
 				C149D9622BE39D95007158E9 /* Session Screen */,
 				C149D9562BE3964C007158E9 /* Subject Screen */,
 				C149D9512BE3951F007158E9 /* Class Screen */,
 				C149D93F2BE38AF4007158E9 /* Main.storyboard */,
+				C1394C062BEB57BC00A6FB5F /* MentorViewController.swift */,
 				C18B328C2BE538F4001C8D94 /* Tenses.mp4 */,
+				C1AB55382BECF69400D1C56C /* ExtractedTextViewController.swift */,
 				C14975772BE4E24400A69BC0 /* Date+Extension.swift */,
+				C1AB553A2BECF6A000D1C56C /* EvaluationResultsViewController.swift */,
+				C1394C002BEB579E00A6FB5F /* MentorDetailViewController.swift */,
+				C1AB553E2BECF6BC00D1C56C /* ItemTableViewCell.swift */,
+				C1AB553C2BECF6B400D1C56C /* CameraViewController.swift */,
+				C1AB55362BECF5A700D1C56C /* SpeechRecogniserViewController.swift */,
 				C14975792BE4E24D00A69BC0 /* Note.swift */,
 				C149757B2BE4E25500A69BC0 /* ListNotesViewController.swift */,
+				C1AB55342BECE86100D1C56C /* MentorTableViewCell.swift */,
+				C1AB55322BECE85B00D1C56C /* MentorCell.swift */,
 				C149757D2BE4E25B00A69BC0 /* ListNoteTableViewCell.swift */,
+				C1AB55302BECE85300D1C56C /* MentorTableViewController.swift */,
 				C149757F2BE4E26100A69BC0 /* EditNoteViewController.swift */,
 				C18B32862BE53603001C8D94 /* PostViewController.swift */,
 				C18B32872BE53609001C8D94 /* PostTableViewCell.swift */,
 				C18B328A2BE5379A001C8D94 /* VideoViewController.swift */,
+				C15F42B52BE897CE006883CC /* ProfileTableViewController.swift */,
+				C1F1183F2BEDDD60001CD5D0 /* Screenshot 2024-05-09 at 1.26.12 PM.png */,
 				C149D9422BE38AF5007158E9 /* Assets.xcassets */,
 				C149D9442BE38AF5007158E9 /* LaunchScreen.storyboard */,
 				C149D9472BE38AF5007158E9 /* Info.plist */,
 				C14975852BE4F36E00A69BC0 /* TabBarController.swift */,
+				C1AB55542BECFD2000D1C56C /* FloatingParticipantView.swift */,
+				C1AB55522BECFD1F00D1C56C /* ParticipantsView.swift */,
+				C1AB55532BECFD2000D1C56C /* VideoCallApp.swift */,
 			);
 			path = "Final-App(LearningBridge)";
 			sourceTree = "<group>";
@@ -160,6 +214,11 @@
 			dependencies = (
 			);
 			name = "Final-App(LearningBridge)";
+			packageProductDependencies = (
+				C1AB554A2BECFC5700D1C56C /* StreamVideo */,
+				C1AB554C2BECFC5700D1C56C /* StreamVideoSwiftUI */,
+				C1AB554E2BECFC5700D1C56C /* StreamVideoUIKit */,
+			);
 			productName = "Final-App(LearningBridge)";
 			productReference = C149D9362BE38AF4007158E9 /* Final-App(LearningBridge).app */;
 			productType = "com.apple.product-type.application";
@@ -188,6 +247,9 @@
 				Base,
 			);
 			mainGroup = C149D92D2BE38AF4007158E9;
+			packageReferences = (
+				C1AB55492BECFC5700D1C56C /* XCRemoteSwiftPackageReference "stream-video-swift" */,
+			);
 			productRefGroup = C149D9372BE38AF4007158E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -204,6 +266,7 @@
 			files = (
 				C149D9432BE38AF5007158E9 /* Assets.xcassets in Resources */,
 				C149D9462BE38AF5007158E9 /* Base in Resources */,
+				C1F118402BEDDD60001CD5D0 /* Screenshot 2024-05-09 at 1.26.12 PM.png in Resources */,
 				C149D9412BE38AF4007158E9 /* Base in Resources */,
 				C18B328D2BE538F4001C8D94 /* Tenses.mp4 in Resources */,
 			);
@@ -216,23 +279,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1AB55352BECE86100D1C56C /* MentorTableViewCell.swift in Sources */,
+				C1394C012BEB579E00A6FB5F /* MentorDetailViewController.swift in Sources */,
+				C15F42B62BE897CE006883CC /* ProfileTableViewController.swift in Sources */,
 				C14975802BE4E26100A69BC0 /* EditNoteViewController.swift in Sources */,
 				C14975862BE4F36E00A69BC0 /* TabBarController.swift in Sources */,
 				C149D9552BE395A0007158E9 /* SubjectCell.swift in Sources */,
+				C1AB55572BECFD2000D1C56C /* FloatingParticipantView.swift in Sources */,
 				C149D9502BE39470007158E9 /* ClassCell.swift in Sources */,
 				C149D9532BE39598007158E9 /* SubjectsViewController.swift in Sources */,
 				C149D93A2BE38AF4007158E9 /* AppDelegate.swift in Sources */,
 				C149D9612BE39D89007158E9 /* SessionTableViewCell.swift in Sources */,
 				C149757A2BE4E24D00A69BC0 /* Note.swift in Sources */,
+				C1AB55562BECFD2000D1C56C /* VideoCallApp.swift in Sources */,
 				C18B328B2BE5379A001C8D94 /* VideoViewController.swift in Sources */,
+				C1AB553F2BECF6BC00D1C56C /* ItemTableViewCell.swift in Sources */,
 				C149D94E2BE39467007158E9 /* ChooseCollectionViewController.swift in Sources */,
+				C1394C072BEB57BC00A6FB5F /* MentorViewController.swift in Sources */,
+				C1AB55312BECE85300D1C56C /* MentorTableViewController.swift in Sources */,
 				C18B32882BE5364E001C8D94 /* PostViewController.swift in Sources */,
+				C1AB55332BECE85B00D1C56C /* MentorCell.swift in Sources */,
+				C1AB553D2BECF6B400D1C56C /* CameraViewController.swift in Sources */,
 				C149D95F2BE39D85007158E9 /* SessionViewController.swift in Sources */,
 				C18B32892BE53650001C8D94 /* PostTableViewCell.swift in Sources */,
 				C149757C2BE4E25500A69BC0 /* ListNotesViewController.swift in Sources */,
 				C149D93C2BE38AF4007158E9 /* SceneDelegate.swift in Sources */,
 				C14975782BE4E24400A69BC0 /* Date+Extension.swift in Sources */,
+				C1AB55392BECF69400D1C56C /* ExtractedTextViewController.swift in Sources */,
+				C1AB55512BECFC8900D1C56C /* VideoCallViewController.swift in Sources */,
+				C1AB55552BECFD2000D1C56C /* ParticipantsView.swift in Sources */,
 				C149757E2BE4E25B00A69BC0 /* ListNoteTableViewCell.swift in Sources */,
+				C1AB55372BECF5A700D1C56C /* SpeechRecogniserViewController.swift in Sources */,
+				C1AB553B2BECF6A000D1C56C /* EvaluationResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +533,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C1AB55492BECFC5700D1C56C /* XCRemoteSwiftPackageReference "stream-video-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GetStream/stream-video-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C1AB554A2BECFC5700D1C56C /* StreamVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1AB55492BECFC5700D1C56C /* XCRemoteSwiftPackageReference "stream-video-swift" */;
+			productName = StreamVideo;
+		};
+		C1AB554C2BECFC5700D1C56C /* StreamVideoSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1AB55492BECFC5700D1C56C /* XCRemoteSwiftPackageReference "stream-video-swift" */;
+			productName = StreamVideoSwiftUI;
+		};
+		C1AB554E2BECFC5700D1C56C /* StreamVideoUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1AB55492BECFC5700D1C56C /* XCRemoteSwiftPackageReference "stream-video-swift" */;
+			productName = StreamVideoUIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C149D92E2BE38AF4007158E9 /* Project object */;
 }

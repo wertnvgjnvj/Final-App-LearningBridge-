@@ -1,16 +1,13 @@
-//
-//  SessionTableViewCell.swift
-//  sessionpage
-//
-//  Created by Sahil Aggarwal on 01/05/24.
-//
+
 
 import UIKit
-
+// The SessionTableViewCell class represents a custom table view cell used to display session information.
 class SessionTableViewCell: UITableViewCell {
-    @IBOutlet weak var head: UILabel!
-    @IBOutlet weak var author:UILabel!
-    @IBOutlet weak var poster:UIImageView!
+    @IBOutlet weak var head: UILabel! // Label to display the session title or heading
+    @IBOutlet weak var author:UILabel! // Label to display the author or presenter of the session
+    @IBOutlet weak var poster:UIImageView! // Image view to display a poster or thumbnail related to the session
     
 
 }
+import UIKit
+
