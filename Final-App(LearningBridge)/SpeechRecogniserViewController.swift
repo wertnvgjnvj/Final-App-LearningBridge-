@@ -6,7 +6,7 @@ class SpeechRecogniserViewController: UIViewController, SFSpeechRecognizerDelega
     
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var recordButton: UIButton!
-    
+    var extractedText : String = ""
     private let speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: "en-US"))!
     private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
     private var recognitionTask: SFSpeechRecognitionTask?
@@ -25,6 +25,7 @@ class SpeechRecogniserViewController: UIViewController, SFSpeechRecognizerDelega
             OperationQueue.main.addOperation {
                 self.recordButton.isEnabled = authStatus == .authorized
             }
+            print("text speech" , self.extractedText)
         }
     }
     
@@ -141,6 +142,7 @@ class SpeechRecogniserViewController: UIViewController, SFSpeechRecognizerDelega
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let extractedVC = segue.destination as? ExtractedTextViewController {
             extractedVC.recordedText = textView.text
+            extractedVC.extractedText = extractedText
         }
     }
     
